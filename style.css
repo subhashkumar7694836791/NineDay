@@ -1,0 +1,36 @@
+*
+{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+html,body
+{
+height:100%;
+width:100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.main #boxs{
+    height: 20%;
+    width: 100%;
+    display: flex;
+   
+    align-items: center;
+    justify-content:space-around;
+}
+.main #boxs .btn{
+    padding: 2.5vw 5vw;
+    font-size: 2vw;
+    cursor: pointer;
+    border: none;
+    color: antiquewhite;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
